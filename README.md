@@ -9,6 +9,6 @@ python setup.py install
 
 ### Usage
 For help, use:
-`pytemp-cli --help`
+`pytemp --help`
 
 ## That's about it! :)

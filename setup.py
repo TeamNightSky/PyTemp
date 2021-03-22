@@ -18,13 +18,13 @@ setup(
     description='A CLI tool for rendering python code using Jinja2.',
     long_description=read,
     long_description_content_type='text/markdown',
-    version='0.0.0',
+    version='0.0.1',
     url='https://github.com/TeamNightSky/PyTemp',
     author='FoxNerdSaysMoo, GrandMoff100',
     author_email='teamnightsky.gh@gmail.com',
     install_requires=dependencies,
     packages=['pytemp'],
     entry_points = {
-        'console_scripts': ['pytemp=cli.py:cli'],
+        'console_scripts': ["pytemp=cli:cli"],
     }
 )
