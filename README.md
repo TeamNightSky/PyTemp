@@ -4,12 +4,11 @@
 ```
 git clone https://github.com/TeamNightSky/PyTemp
 cd PyTemp
-pip install -r requirements.txt
+python setup.py install
 ```
-Use `PyTemp/cli.py` as the cli
 
 ### Usage
 For help, use:
-`python cli.py --help`
+`pytemp-cli --help`
 
 ## That's about it! :)

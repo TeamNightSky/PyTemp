@@ -1,7 +1,10 @@
 import os
+import platform
 
-
-PATH = "/tmp/pytempwd"
+if platform.system() == "Windows":
+    PATH = os.getenv("TMP")
+else:
+    PATH = "/tmp/pytempwd"
 
 
 def tempdir():
