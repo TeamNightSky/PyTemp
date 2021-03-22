@@ -1,0 +1,6 @@
+blacklist = []
+run = "main.py"
+
+[manifest]
+message = "str : Message to be printed"
+crange = "int : Range to print in"
